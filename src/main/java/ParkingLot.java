@@ -7,7 +7,6 @@ public class ParkingLot {
     }
 
     public boolean park() {
-        this.occupied += 1;
         if(CAPACITY-occupied>0){
             occupied += 1;
         }
@@ -16,4 +15,6 @@ public class ParkingLot {
         }
         return true;
     }
+
+
 }
